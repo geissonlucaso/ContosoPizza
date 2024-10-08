@@ -14,5 +14,10 @@ namespace ContosoPizza.Models
         [Column(TypeName = "decimal(6,2)")]
         public decimal Price { get; set; }
 
+
+        public override string ToString()
+        {
+            return $"Id: {Id}\tName: {Name}\tPrice: {Price}";
+        }
     }
 }
