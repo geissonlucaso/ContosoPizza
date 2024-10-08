@@ -1,0 +1,2 @@
+# ContosoPizza
+EF Core sample.
